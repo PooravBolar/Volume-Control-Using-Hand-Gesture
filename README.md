@@ -22,9 +22,34 @@ pip install numpy
 pip install pycaw
 pip install opencv-python
 
+```
+
 ---
 
 🛠️ How it Works:
 Hand Detection: The app uses the cvzone and HandDetector modules to detect hands and extract landmarks.
 Gesture Recognition: The distance between the thumb and index finger is calculated to determine the volume level.
 Volume Adjustment: Using pycaw, the app adjusts the system volume based on the hand gesture.
+
+---
+
+🚀 Running the App:
+Setup your Webcam: Ensure your webcam is connected.
+Run the Script: Execute the Python script to start controlling the volume with your hand gestures!
+```bash
+python volume_control.py
+```
+
+Quit the App: Press q on your keyboard to stop the app.
+
+---
+
+🤝 Contribution:
+Feel free to fork this project, make your modifications, and create a pull request! Any suggestions for improving the hand gesture recognition or performance are welcome.
+
+---
+
+📧 Contact:
+Have any questions or feedback? Reach out to us at:
+📩 Email: [pooravbolar3@gmail.com]
+

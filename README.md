@@ -21,3 +21,10 @@ pip install cvzone
 pip install numpy
 pip install pycaw
 pip install opencv-python
+
+---
+
+🛠️ How it Works:
+Hand Detection: The app uses the cvzone and HandDetector modules to detect hands and extract landmarks.
+Gesture Recognition: The distance between the thumb and index finger is calculated to determine the volume level.
+Volume Adjustment: Using pycaw, the app adjusts the system volume based on the hand gesture.
